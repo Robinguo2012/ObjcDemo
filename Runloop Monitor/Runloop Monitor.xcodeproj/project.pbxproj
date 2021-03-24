@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A16B4F259AA2DC007F3A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B4E259AA2DC007F3A63 /* AppDelegate.swift */; };
+		D5A16B51259AA2DC007F3A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B50259AA2DC007F3A63 /* SceneDelegate.swift */; };
+		D5A16B53259AA2DC007F3A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B52259AA2DC007F3A63 /* ViewController.swift */; };
+		D5A16B56259AA2DC007F3A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A16B54259AA2DC007F3A63 /* Main.storyboard */; };
+		D5A16B58259AA2DD007F3A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A16B57259AA2DD007F3A63 /* Assets.xcassets */; };
+		D5A16B5B259AA2DD007F3A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A16B59259AA2DD007F3A63 /* LaunchScreen.storyboard */; };
+		D5A16B66259AA2DE007F3A63 /* Runloop_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B65259AA2DE007F3A63 /* Runloop_MonitorTests.swift */; };
+		D5A16B71259AA2DE007F3A63 /* Runloop_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B70259AA2DE007F3A63 /* Runloop_MonitorUITests.swift */; };
+		D5A16B82259AA302007F3A63 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A16B81259AA302007F3A63 /* Monitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A16B62259AA2DE007F3A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A16B43259AA2DC007F3A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A16B4A259AA2DC007F3A63;
+			remoteInfo = "Runloop Monitor";
+		};
+		D5A16B6D259AA2DE007F3A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A16B43259AA2DC007F3A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A16B4A259AA2DC007F3A63;
+			remoteInfo = "Runloop Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5A16B4B259AA2DC007F3A63 /* Runloop Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A16B4E259AA2DC007F3A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5A16B50259AA2DC007F3A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5A16B52259AA2DC007F3A63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5A16B55259AA2DC007F3A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A16B57259AA2DD007F3A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A16B5A259AA2DD007F3A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A16B5C259AA2DD007F3A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A16B61259AA2DE007F3A63 /* Runloop MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runloop MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A16B65259AA2DE007F3A63 /* Runloop_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runloop_MonitorTests.swift; sourceTree = "<group>"; };
+		D5A16B67259AA2DE007F3A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A16B6C259AA2DE007F3A63 /* Runloop MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runloop MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A16B70259AA2DE007F3A63 /* Runloop_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runloop_MonitorUITests.swift; sourceTree = "<group>"; };
+		D5A16B72259AA2DE007F3A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A16B81259AA302007F3A63 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A16B48259AA2DC007F3A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B5E259AA2DE007F3A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B69259AA2DE007F3A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A16B42259AA2DC007F3A63 = {
+			isa = PBXGroup;
+			children = (
+				D5A16B4D259AA2DC007F3A63 /* Runloop Monitor */,
+				D5A16B64259AA2DE007F3A63 /* Runloop MonitorTests */,
+				D5A16B6F259AA2DE007F3A63 /* Runloop MonitorUITests */,
+				D5A16B4C259AA2DC007F3A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A16B4C259AA2DC007F3A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A16B4B259AA2DC007F3A63 /* Runloop Monitor.app */,
+				D5A16B61259AA2DE007F3A63 /* Runloop MonitorTests.xctest */,
+				D5A16B6C259AA2DE007F3A63 /* Runloop MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A16B4D259AA2DC007F3A63 /* Runloop Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				D5A16B4E259AA2DC007F3A63 /* AppDelegate.swift */,
+				D5A16B50259AA2DC007F3A63 /* SceneDelegate.swift */,
+				D5A16B52259AA2DC007F3A63 /* ViewController.swift */,
+				D5A16B81259AA302007F3A63 /* Monitor.swift */,
+				D5A16B54259AA2DC007F3A63 /* Main.storyboard */,
+				D5A16B57259AA2DD007F3A63 /* Assets.xcassets */,
+				D5A16B59259AA2DD007F3A63 /* LaunchScreen.storyboard */,
+				D5A16B5C259AA2DD007F3A63 /* Info.plist */,
+			);
+			path = "Runloop Monitor";
+			sourceTree = "<group>";
+		};
+		D5A16B64259AA2DE007F3A63 /* Runloop MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A16B65259AA2DE007F3A63 /* Runloop_MonitorTests.swift */,
+				D5A16B67259AA2DE007F3A63 /* Info.plist */,
+			);
+			path = "Runloop MonitorTests";
+			sourceTree = "<group>";
+		};
+		D5A16B6F259AA2DE007F3A63 /* Runloop MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A16B70259AA2DE007F3A63 /* Runloop_MonitorUITests.swift */,
+				D5A16B72259AA2DE007F3A63 /* Info.plist */,
+			);
+			path = "Runloop MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A16B4A259AA2DC007F3A63 /* Runloop Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A16B75259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop Monitor" */;
+			buildPhases = (
+				D5A16B47259AA2DC007F3A63 /* Sources */,
+				D5A16B48259AA2DC007F3A63 /* Frameworks */,
+				D5A16B49259AA2DC007F3A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runloop Monitor";
+			productName = "Runloop Monitor";
+			productReference = D5A16B4B259AA2DC007F3A63 /* Runloop Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A16B60259AA2DE007F3A63 /* Runloop MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A16B78259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop MonitorTests" */;
+			buildPhases = (
+				D5A16B5D259AA2DE007F3A63 /* Sources */,
+				D5A16B5E259AA2DE007F3A63 /* Frameworks */,
+				D5A16B5F259AA2DE007F3A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A16B63259AA2DE007F3A63 /* PBXTargetDependency */,
+			);
+			name = "Runloop MonitorTests";
+			productName = "Runloop MonitorTests";
+			productReference = D5A16B61259AA2DE007F3A63 /* Runloop MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A16B6B259AA2DE007F3A63 /* Runloop MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A16B7B259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop MonitorUITests" */;
+			buildPhases = (
+				D5A16B68259AA2DE007F3A63 /* Sources */,
+				D5A16B69259AA2DE007F3A63 /* Frameworks */,
+				D5A16B6A259AA2DE007F3A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A16B6E259AA2DE007F3A63 /* PBXTargetDependency */,
+			);
+			name = "Runloop MonitorUITests";
+			productName = "Runloop MonitorUITests";
+			productReference = D5A16B6C259AA2DE007F3A63 /* Runloop MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A16B43259AA2DC007F3A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D5A16B4A259AA2DC007F3A63 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D5A16B60259AA2DE007F3A63 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D5A16B4A259AA2DC007F3A63;
+					};
+					D5A16B6B259AA2DE007F3A63 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D5A16B4A259AA2DC007F3A63;
+					};
+				};
+			};
+			buildConfigurationList = D5A16B46259AA2DC007F3A63 /* Build configuration list for PBXProject "Runloop Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A16B42259AA2DC007F3A63;
+			productRefGroup = D5A16B4C259AA2DC007F3A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A16B4A259AA2DC007F3A63 /* Runloop Monitor */,
+				D5A16B60259AA2DE007F3A63 /* Runloop MonitorTests */,
+				D5A16B6B259AA2DE007F3A63 /* Runloop MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A16B49259AA2DC007F3A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A16B5B259AA2DD007F3A63 /* LaunchScreen.storyboard in Resources */,
+				D5A16B58259AA2DD007F3A63 /* Assets.xcassets in Resources */,
+				D5A16B56259AA2DC007F3A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B5F259AA2DE007F3A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B6A259AA2DE007F3A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A16B47259AA2DC007F3A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A16B82259AA302007F3A63 /* Monitor.swift in Sources */,
+				D5A16B53259AA2DC007F3A63 /* ViewController.swift in Sources */,
+				D5A16B4F259AA2DC007F3A63 /* AppDelegate.swift in Sources */,
+				D5A16B51259AA2DC007F3A63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B5D259AA2DE007F3A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A16B66259AA2DE007F3A63 /* Runloop_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A16B68259AA2DE007F3A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A16B71259AA2DE007F3A63 /* Runloop_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A16B63259AA2DE007F3A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A16B4A259AA2DC007F3A63 /* Runloop Monitor */;
+			targetProxy = D5A16B62259AA2DE007F3A63 /* PBXContainerItemProxy */;
+		};
+		D5A16B6E259AA2DE007F3A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A16B4A259AA2DC007F3A63 /* Runloop Monitor */;
+			targetProxy = D5A16B6D259AA2DE007F3A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5A16B54259AA2DC007F3A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A16B55259AA2DC007F3A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A16B59259AA2DD007F3A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A16B5A259AA2DD007F3A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5A16B73259AA2DE007F3A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A16B74259AA2DE007F3A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A16B76259AA2DE007F3A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUQ7929XKL;
+				INFOPLIST_FILE = "Runloop Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A16B77259AA2DE007F3A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUQ7929XKL;
+				INFOPLIST_FILE = "Runloop Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5A16B79259AA2DE007F3A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q82GP36UW;
+				INFOPLIST_FILE = "Runloop MonitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runloop Monitor.app/Runloop Monitor";
+			};
+			name = Debug;
+		};
+		D5A16B7A259AA2DE007F3A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q82GP36UW;
+				INFOPLIST_FILE = "Runloop MonitorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runloop Monitor.app/Runloop Monitor";
+			};
+			name = Release;
+		};
+		D5A16B7C259AA2DE007F3A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q82GP36UW;
+				INFOPLIST_FILE = "Runloop MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Runloop Monitor";
+			};
+			name = Debug;
+		};
+		D5A16B7D259AA2DE007F3A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q82GP36UW;
+				INFOPLIST_FILE = "Runloop MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopin.mall.Runloop-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Runloop Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A16B46259AA2DC007F3A63 /* Build configuration list for PBXProject "Runloop Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A16B73259AA2DE007F3A63 /* Debug */,
+				D5A16B74259AA2DE007F3A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A16B75259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A16B76259AA2DE007F3A63 /* Debug */,
+				D5A16B77259AA2DE007F3A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A16B78259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A16B79259AA2DE007F3A63 /* Debug */,
+				D5A16B7A259AA2DE007F3A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A16B7B259AA2DE007F3A63 /* Build configuration list for PBXNativeTarget "Runloop MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A16B7C259AA2DE007F3A63 /* Debug */,
+				D5A16B7D259AA2DE007F3A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A16B43259AA2DC007F3A63 /* Project object */;
+}
